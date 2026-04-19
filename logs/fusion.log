@@ -1,0 +1,46 @@
+=== New run started at 2026-04-18 17:18:25 ===
+
+--- Epoch 1 ---
+[Epoch 1 | Step 50]  loss=0.6728  
+[Epoch 1 | Step 100]  loss=0.6944  
+[Epoch 1 | Step 150]  loss=0.6735  
+[Epoch 1 | Step 200]  loss=0.6107  
+[Epoch 1 | Step 250]  loss=0.5019  
+[Epoch 1 | Step 300]  loss=0.6767  
+[VAL @ Epoch 1]  train_loss=0.6207  val_loss=0.7393  auroc=0.6093  f1=0.3781  accuracy=0.5952
+
+--- Epoch 2 ---
+[Epoch 2 | Step 350]  loss=0.5240  
+[Epoch 2 | Step 400]  loss=0.5549  
+[Epoch 2 | Step 450]  loss=0.4171  
+[Epoch 2 | Step 500]  loss=0.4637  
+[Epoch 2 | Step 550]  loss=0.5216  
+[Epoch 2 | Step 600]  loss=0.4856  
+[VAL @ Epoch 2]  train_loss=0.4869  val_loss=0.7894  auroc=0.6127  f1=0.4107  accuracy=0.5971
+
+--- Epoch 3 ---
+[Epoch 3 | Step 650]  loss=0.3718  
+[Epoch 3 | Step 700]  loss=0.3690  
+[Epoch 3 | Step 750]  loss=0.4689  
+[Epoch 3 | Step 800]  loss=0.2748  
+[Epoch 3 | Step 850]  loss=0.3336  
+[Epoch 3 | Step 900]  loss=0.4912  
+[VAL @ Epoch 3]  train_loss=0.3895  val_loss=0.9034  auroc=0.6139  f1=0.3191  accuracy=0.6019
+
+--- Epoch 4 ---
+[Epoch 4 | Step 950]  loss=0.3062  
+[Epoch 4 | Step 1000]  loss=0.5374  
+[Epoch 4 | Step 1050]  loss=0.2421  
+[Epoch 4 | Step 1100]  loss=0.3749  
+[Epoch 4 | Step 1150]  loss=0.2246  
+[Epoch 4 | Step 1200]  loss=0.2958  
+[VAL @ Epoch 4]  train_loss=0.3250  val_loss=0.9767  auroc=0.6160  f1=0.4006  accuracy=0.6029
+
+--- Epoch 5 ---
+[Epoch 5 | Step 1250]  loss=0.2925  
+[Epoch 5 | Step 1300]  loss=0.3813  
+[Epoch 5 | Step 1350]  loss=0.2734  
+[Epoch 5 | Step 1400]  loss=0.2492  
+[Epoch 5 | Step 1450]  loss=0.3143  
+[Epoch 5 | Step 1500]  loss=0.3346  
+[VAL @ Epoch 5]  train_loss=0.2706  val_loss=1.0484  auroc=0.6113  f1=0.3898  accuracy=0.6087

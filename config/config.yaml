@@ -1,0 +1,51 @@
+data:
+  dataset_name: "limjiayi/hateful_memes_expanded"  # HuggingFace dataset
+  image_size: 224
+  max_text_length: 128
+  train_split: "train"
+  val_split: "validation"
+  test_split: "test"
+
+training:
+  batch_size: 32
+  num_epochs: 5
+  learning_rate: 0.00002
+  weight_decay: 0.01
+  warmup_steps: 100
+  seed: 42
+  num_workers: 4
+  device: "cuda"  # "cuda" or "cpu"
+
+text:
+  model_name: "bert-base-uncased"
+  hidden_dim: 256
+  dropout: 0.3
+  freeze_encoder: false
+
+image:
+  model_name: "resnet18"
+  hidden_dim: 256
+  dropout: 0.3
+  freeze_encoder: false
+  augmentation: true  # toggle basic augmentation
+
+multimodal:
+  text_model: "bert-base-uncased"
+  image_model: "resnet18"
+  fusion_hidden_dim: 512
+  dropout: 0.3
+  freeze_encoders: false  # set true to only train classifier head
+
+clip:
+  model_name: "openai/clip-vit-base-patch32"
+  hidden_dim: 256
+  dropout: 0.3
+  freeze_encoder: true  # CLIP encoder is frozen by default
+
+checkpoints:
+  save_dir: "checkpoints"
+  save_every_n_epochs: 1
+
+logging:
+  log_dir: "logs"
+  log_every_n_steps: 50

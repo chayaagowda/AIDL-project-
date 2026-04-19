@@ -1,0 +1,56 @@
+=== New run started at 2026-04-17 21:39:28 ===
+
+--- Epoch 1 ---
+[Epoch 1 | Step 50]  loss=0.6728  
+[Epoch 1 | Step 100]  loss=0.5313  
+[Epoch 1 | Step 150]  loss=0.5099  
+[Epoch 1 | Step 200]  loss=0.5344  
+[Epoch 1 | Step 250]  loss=0.3983  
+[Epoch 1 | Step 300]  loss=0.4736  
+[Epoch 1 | Step 350]  loss=0.5465  
+[Epoch 1 | Step 400]  loss=0.3020  
+[VAL @ Epoch 1]  train_loss=0.5512  val_loss=0.7409  auroc=0.6117  f1=0.3469  accuracy=0.5981
+
+--- Epoch 2 ---
+[Epoch 2 | Step 450]  loss=0.4785  
+[Epoch 2 | Step 500]  loss=0.3998  
+[Epoch 2 | Step 550]  loss=0.3418  
+[Epoch 2 | Step 600]  loss=0.4347  
+[Epoch 2 | Step 650]  loss=0.4693  
+[Epoch 2 | Step 700]  loss=0.3295  
+[Epoch 2 | Step 750]  loss=0.3147  
+[Epoch 2 | Step 800]  loss=0.4098  
+[VAL @ Epoch 2]  train_loss=0.4132  val_loss=0.7910  auroc=0.6114  f1=0.3936  accuracy=0.5971
+
+--- Epoch 3 ---
+[Epoch 3 | Step 850]  loss=0.2475  
+[Epoch 3 | Step 900]  loss=0.1532  
+[Epoch 3 | Step 950]  loss=0.1852  
+[Epoch 3 | Step 1000]  loss=0.1944  
+[Epoch 3 | Step 1050]  loss=0.2505  
+[Epoch 3 | Step 1100]  loss=0.2836  
+[Epoch 3 | Step 1150]  loss=0.2722  
+[Epoch 3 | Step 1200]  loss=0.3623  
+[VAL @ Epoch 3]  train_loss=0.3358  val_loss=0.8110  auroc=0.6173  f1=0.3930  accuracy=0.5990
+
+--- Epoch 4 ---
+[Epoch 4 | Step 1250]  loss=0.3135  
+[Epoch 4 | Step 1300]  loss=0.3994  
+[Epoch 4 | Step 1350]  loss=0.2318  
+[Epoch 4 | Step 1400]  loss=0.2147  
+[Epoch 4 | Step 1450]  loss=0.2930  
+[Epoch 4 | Step 1500]  loss=0.2120  
+[Epoch 4 | Step 1550]  loss=0.2879  
+[Epoch 4 | Step 1600]  loss=0.3933  
+[VAL @ Epoch 4]  train_loss=0.2759  val_loss=0.8868  auroc=0.6190  f1=0.3837  accuracy=0.6077
+
+--- Epoch 5 ---
+[Epoch 5 | Step 1650]  loss=0.1708  
+[Epoch 5 | Step 1700]  loss=0.1433  
+[Epoch 5 | Step 1750]  loss=0.1290  
+[Epoch 5 | Step 1800]  loss=0.2075  
+[Epoch 5 | Step 1850]  loss=0.1656  
+[Epoch 5 | Step 1900]  loss=0.1896  
+[Epoch 5 | Step 1950]  loss=0.3507  
+[Epoch 5 | Step 2000]  loss=0.1790  
+[VAL @ Epoch 5]  train_loss=0.2348  val_loss=0.9514  auroc=0.6144  f1=0.3994  accuracy=0.6038
