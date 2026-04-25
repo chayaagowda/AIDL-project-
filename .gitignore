@@ -17,10 +17,6 @@ saved_models/
 # Dataset images — download via download_dataset.py
 data/img/
 
-# Logs and generated outputs (optional — keep if you want training history visible)
-# logs/
-# results/
-
 # Jupyter
 .ipynb_checkpoints/
 
