@@ -2,12 +2,14 @@
 
 Binary classification of hateful memes using text, image, fusion, and CLIP architectures, trained on the [Hateful Memes Expanded](https://huggingface.co/datasets/limjiayi/hateful_memes_expanded) dataset.
 
-| Model | Architecture | Best Val AUROC | Best Val F1 |
-|---|---|---|---|
-| Text (BERT) | BERT-base-uncased + MLP | 0.619 | 0.399 |
-| Fusion (BERT + ResNet18) | Late fusion + MLP | 0.616 | 0.411 |
-| CLIP (frozen) | CLIP ViT-B/32 + MLP | 0.597 | 0.031 |
-| Image (ResNet18) | ResNet18 + MLP | 0.508 | 0.237 |
+| Model | Architecture | Best Val AUROC | Best Val Acc | Best Val F1 |
+|---|---|---|---|---|
+| **Fusion (BERT + ResNet18)** | Late fusion + MLP | **0.633** | 62.2% | 0.424 |
+| Text (BERT) | BERT-base-uncased + MLP | 0.629 | 60.7% | 0.410 |
+| CLIP (frozen) | CLIP ViT-B/32 + MLP | 0.566 | 55.96% | 0.286 |
+| Image (ResNet18) | ResNet18 + MLP | 0.509 | 55.96% | 0.176 |
+
+> Trained on Google Colab T4 GPU, 5 epochs each.
 
 ---
 

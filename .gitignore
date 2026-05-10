@@ -17,6 +17,9 @@ saved_models/
 # Dataset images — download via download_dataset.py
 data/img/
 
+# Presentation files (Word, PDF, PPTX)
+presentation/
+
 # Jupyter
 .ipynb_checkpoints/
 
